@@ -25,6 +25,9 @@ const Form = ({ handleAdd }) => {
         }
 
         handleAdd(transaction)
+
+        setDesc('')
+        setAmount('')
     }
 
     return (
