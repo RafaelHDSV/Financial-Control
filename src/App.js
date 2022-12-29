@@ -36,7 +36,7 @@ const App = () => {
     return (
         <>
             <Header />
-            <Resume />
+            <Resume income={income} expense={expense} total={total} />
             <Form />
             <GlobalStyle />
         </>
