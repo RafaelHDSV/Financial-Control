@@ -15,6 +15,8 @@ const App = () => {
 
     useEffect(() => {
         const amountExpense = transactionsList
+            .filter((item) => item.expense)
+            .map((transaction) => Number(transaction.amount))
     }, [transactionsList])
 
     return (
