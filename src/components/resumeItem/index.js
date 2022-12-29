@@ -1,8 +1,14 @@
 import React from 'react'
+import * as C from './style'
 
 const ResumeItem = () => {
     return (
-        <div>ResumeItem</div>
+        <C.Container>
+            <C.Header>
+                <C.HeaderTitle>teste</C.HeaderTitle>
+            </C.Header>
+            <C.Total>1000</C.Total>
+        </C.Container>
     )
 }
 
