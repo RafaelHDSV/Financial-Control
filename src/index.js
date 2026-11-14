@@ -5,9 +5,13 @@ import App from "./App";
 
 const root = createRoot(document.querySelector('#root'));
 
-root.render(<App />
+root.render(
+  <>
+    <App />
     <VisitCountSlot />
-    <VieiraAnalytics projectKey='controle-financeiro' />);
+    <VieiraAnalytics projectKey='controle-financeiro' />
+  </>
+);
 
 /* Buy Me a Coffee widget (ensures badge after SPA build/deploy) */
 ;(function () {
