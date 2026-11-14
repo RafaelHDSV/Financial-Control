@@ -1,3 +1,4 @@
+import { VisitCountSlot } from './VisitCountSlot'
 import { VieiraAnalytics } from '@vieira/analytics/react'
 import { createRoot } from "react-dom/client";
 import App from "./App";
@@ -5,6 +6,7 @@ import App from "./App";
 const root = createRoot(document.querySelector('#root'));
 
 root.render(<App />
+    <VisitCountSlot />
     <VieiraAnalytics projectKey='controle-financeiro' />);
 
 /* Buy Me a Coffee widget (ensures badge after SPA build/deploy) */
